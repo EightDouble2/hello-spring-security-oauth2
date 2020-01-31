@@ -1,4 +1,4 @@
-package com.johnny.spring.security.oauth2.server.server;
+package com.johnny.spring.security.oauth2.server.service;
 
 import com.johnny.spring.security.oauth2.server.domain.TbUser;
 

@@ -1,10 +1,10 @@
-package com.johnny.spring.security.oauth2.server.server.impl;
+package com.johnny.spring.security.oauth2.server.service.impl;
 
 import com.johnny.spring.security.oauth2.server.domain.TbUser;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import com.johnny.spring.security.oauth2.server.mapper.TbUserMapper;
-import com.johnny.spring.security.oauth2.server.server.TbUserService;
+import com.johnny.spring.security.oauth2.server.service.TbUserService;
 import tk.mybatis.mapper.entity.Example;
 
 @Service

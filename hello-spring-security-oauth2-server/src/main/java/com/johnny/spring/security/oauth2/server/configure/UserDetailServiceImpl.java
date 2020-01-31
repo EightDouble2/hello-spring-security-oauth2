@@ -2,8 +2,8 @@ package com.johnny.spring.security.oauth2.server.configure;
 
 import com.johnny.spring.security.oauth2.server.domain.TbPermission;
 import com.johnny.spring.security.oauth2.server.domain.TbUser;
-import com.johnny.spring.security.oauth2.server.server.TbPermissionService;
-import com.johnny.spring.security.oauth2.server.server.TbUserService;
+import com.johnny.spring.security.oauth2.server.service.TbPermissionService;
+import com.johnny.spring.security.oauth2.server.service.TbUserService;
 import org.assertj.core.util.Lists;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
